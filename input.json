@@ -1,0 +1,76 @@
+[
+  {
+    "categoryName": "default",
+    "categorySlug": "/",
+    "pages": [
+      {
+        "pageTitle": "MITRE ATT&CK",
+        "metaDescription": "A knowledge base of adversary tactics and techniques based on real-world observations.",
+        "slug": "/mitre-attandck/",
+        "pageHeading": "MITRE ATT&CK",
+        "pageDescription": "A knowledge base of adversary tactics and techniques based on real-world observations.",
+        "pageContentBlocks": [
+          "## Description",
+          "MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) is a comprehensive framework that provides an organized and detailed catalog of the tactics and techniques that cyber adversaries use to achieve their objectives. It is designed to be used by cybersecurity professionals for threat detection, response, and analysis. The framework is based on real-world observations of how attackers operate and is continuously updated with new information. MITRE ATT&CK is divided into different matrices for various environments, including enterprise, mobile, cloud, and more, allowing organizations to tailor their security strategies based on the threats they face. By mapping attacks to the ATT&CK framework, security teams can better understand the adversary's behavior, improve their detection capabilities, and respond more effectively to incidents. This structured approach aids in threat hunting, incident response, and security assessments, ultimately enhancing an organization’s overall cybersecurity posture.",
+          "## Examples",
+          "- Use of PowerShell for command and control (Technique T1059.001)\n- Phishing as an initial access vector (Technique T1566)",
+          "## Additional Information",
+          "- Used by security teams worldwide for training and planning.\n- Integrates with various security tools to enhance threat intelligence capabilities.",
+          "## References",
+          "- [MITRE ATT&CK®](https://attack.mitre.org/)\n- [MITRE ATT&CK®](https://attack.mitre.org/versions/v14/)\n- [Redirecting to engage.mitre.org/](https://shield.mitre.org/attack_mapping/)\n- [Redirecting to engage.mitre.org/](https://shield.mitre.org/resources/related-projects)\n- [Redirecting to engage.mitre.org/](https://shield.mitre.org/attack_mapping/mapping_all)\n- [Getting Started](https://attack.mitre.org/resources/getting-started/)\n- [Enterprise Matrix](https://attack.mitre.org/versions/v10/matrices/enterprise/)\n- [Frequently Asked Questions](https://attack.mitre.org/resources/faq/)\n- [Matrix - Enterprise | MITRE ATT&CK®](https://attack.mitre.org/versions/v13/matrices/enterprise/)\n- [Redirecting to engage.mitre.org/](https://shield.mitre.org/techniques/)"
+        ]
+      },
+      {
+        "pageTitle": "Tactical threat intelligence",
+        "metaDescription": "Insights and information that guide operational security decisions and responses to immediate threats.",
+        "slug": "/tactical-threat-intelligence/",
+        "pageHeading": "Tactical threat intelligence",
+        "pageDescription": "Insights and information that guide operational security decisions and responses to immediate threats.",
+        "pageContentBlocks": [
+          "## Description",
+          "Tactical threat intelligence refers to actionable information that provides security teams with the necessary context to respond to and mitigate immediate threats to an organization's infrastructure. This type of intelligence typically focuses on the methods, tactics, techniques, and procedures (TTPs) used by cyber adversaries. By understanding these TTPs, security professionals can enhance their monitoring, detection, and response capabilities against ongoing attacks or vulnerabilities. Tactical intelligence often includes indicators of compromise (IOCs), such as specific IP addresses, domain names, file hashes, and patterns of malicious behavior that can be used to identify and block threats in real time. It is crucial for threat detection and response tools, as it enables organizations to prioritize their responses based on the severity and likelihood of potential threats, thus improving their overall security posture. Tactical threat intelligence is often sourced from various feeds, including vendor-specific sources, community sharing platforms, and internal data collection efforts.",
+          "## Examples",
+          "- Analysis of malware behavior that identifies specific file hashes used in an attack.\n- Identification of phishing email templates commonly used by threat actors.",
+          "## Additional Information",
+          "- Tactical threat intelligence can be integrated into Security Information and Event Management (SIEM) systems.\n- It is often derived from collaboration with threat intelligence sharing communities.",
+          "## References",
+          "- [How Tactical Threat Intelligence Helps Identify the Enemy | Recorded Future](https://www.recordedfuture.com/tactical-threat-intelligence)\n- [What is Tactical Cyber Threat Intelligence and How to Use it - SOCRadar® Cyber Intelligence Inc.](https://socradar.io/what-is-tactical-cyber-threat-intelligence-and-how-to-use-it/)\n- [Holistic security](https://holistic-security.tacticaltech.org/chapters/explore/2-8-identifying-and-analysing-threats.html)\n- [Using the Right Threat Intelligence Tools for the Job | Recorded Future](https://www.recordedfuture.com/threat-intelligence-tools)\n- [Threat Intelligence Platform](https://en.wikipedia.org/wiki/Threat_Intelligence_Platform)\n- [How Operational Threat Intelligence Blocks Attacks Before They Happen | Recorded Future](https://www.recordedfuture.com/operational-threat-intelligence)\n- [How Strategic Threat Intelligence Informs Better Security Decisions | Recorded Future](https://www.recordedfuture.com/strategic-threat-intelligence)\n- [What is a Threat Intelligence Platform I Resources I Anomali](https://www.anomali.com/resources/what-is-threat-intelligence)\n- [What is Threat Detection and Response? Solutions, Benefits, and More](https://www.digitalguardian.com/blog/what-threat-detection-and-response-solutions-benefits-and-more)\n- [threat intelligence - Glossary | CSRC](https://csrc.nist.gov/glossary/term/Threat_Intelligence)"
+        ]
+      },
+      {
+        "pageTitle": "Indicators of Compromise (IOCs)",
+        "metaDescription": "IOCs are artifacts observed on a network or in operating system files that indicate a potential intrusion or malicious activity.",
+        "slug": "/indicators-of-compromise-iocs/",
+        "pageHeading": "Indicators of Compromise (IOCs)",
+        "pageDescription": "IOCs are artifacts observed on a network or in operating system files that indicate a potential intrusion or malicious activity.",
+        "pageContentBlocks": [
+          "## Description",
+          "Indicators of Compromise (IOCs) are critical pieces of forensic data that help security professionals detect and respond to cybersecurity threats. They can include a variety of data types, such as IP addresses, file hashes, domain names, or URLs that are associated with malicious activity. IOCs serve as red flags that indicate a breach or an attempted attack, allowing security teams to identify, investigate, and mitigate threats effectively. IOCs can come from various sources, including threat intelligence feeds, incident reports, and internal monitoring systems. By utilizing IOCs within threat detection and response tools, organizations can enhance their ability to detect known threats, improve their incident response strategies, and fortify their overall security posture. IOCs are often categorized into different types, such as tactical IOCs, which are immediately actionable, and strategic IOCs, which provide broader insights into threat trends and behaviors. The effective use of IOCs can significantly reduce the time to detect and respond to incidents, thereby minimizing potential damage and loss.",
+          "## Examples",
+          "- An IP address that is known to be associated with a botnet\n- A file hash of a malware sample that has been previously identified",
+          "## Additional Information",
+          "- IOCs can be shared within the cybersecurity community to help combat threats collectively.\n- The effectiveness of IOCs depends on their timely update and integration into security tools.",
+          "## References",
+          "- [GitHub - williamgibb/IOCs: Indicators of Compromise (IOCs)](https://github.com/williamgibb/IOCs)\n- [GitHub - hpthreatresearch/iocs: Indicators of Compromise (IOCs) accompanying HP Threat Research blog posts and reports.](https://github.com/hpthreatresearch/iocs)\n- [Indicators of Compromise (IoCs) and Their Role in Attack Defence](https://www.rfc-editor.org/rfc/rfc9424.html)\n- [Indicators of compromise](https://www.trendmicro.com/vinfo/us/security/definition/indicators-of-compromise)\n- [Using IOC (Indicators of Compromise) in Malware Forensics](https://www.sans.org/white-papers/34200/)\n- [What are Indicators of Compromise?](https://www.digitalguardian.com/blog/what-are-indicators-compromise)\n- [Indicators of Compromise Service (IOC)](https://www.fortinet.com/support/support-services/fortiguard-security-subscriptions/fortiguard-indicators-of-compromise-service)\n- [RFC 9424: Indicators of Compromise (IoCs) and Their Role in Attack Defence](https://datatracker.ietf.org/doc/html/rfc9424)\n- [Understand threat intelligence concepts in Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/threat-indicator-concepts?view=o365-worldwide)\n- [Indicators of compromise as a way to reduce risk](https://securelist.com/indicators-of-compromise-as-a-way-to-reduce-risk/71915/)"
+        ]
+      },
+      {
+        "pageTitle": "Operational threat intelligence",
+        "metaDescription": "Information that helps organizations understand and respond to current and emerging threats in real-time.",
+        "slug": "/operational-threat-intelligence/",
+        "pageHeading": "Operational threat intelligence",
+        "pageDescription": "Information that helps organizations understand and respond to current and emerging threats in real-time.",
+        "pageContentBlocks": [
+          "## Description",
+          "Operational threat intelligence refers to actionable information that organizations can use to enhance their cybersecurity posture and improve their response to threats. This type of intelligence focuses on immediate threats that could impact the organization's operations, providing insights into the tactics, techniques, and procedures (TTPs) used by adversaries. Operational threat intelligence is typically derived from various sources, including threat feeds, incident reports, and analysis of ongoing cyber incidents. It is critical for threat detection and response tools, as it enables security teams to make informed decisions, prioritize incidents, and implement appropriate countermeasures. By integrating operational threat intelligence into their workflows, organizations can improve their incident response times, reduce the impact of breaches, and enhance their overall security strategy. This intelligence is often time-sensitive and should be continuously updated to reflect the latest threat landscape.",
+          "## Examples",
+          "- Real-time alerts about ongoing phishing campaigns targeting specific industries.\n- Indicators of compromise (IOCs) related to malware affecting similar organizations.",
+          "## Additional Information",
+          "- Operational threat intelligence is often used alongside strategic and tactical threat intelligence.\n- Collaboration with threat intelligence sharing platforms can enhance the effectiveness of operational threat intelligence.",
+          "## References",
+          "- [How Operational Threat Intelligence Blocks Attacks Before They Happen | Recorded Future](https://www.recordedfuture.com/operational-threat-intelligence)\n- [Using the Right Threat Intelligence Tools for the Job | Recorded Future](https://www.recordedfuture.com/threat-intelligence-tools)\n- [MITRE ATT&CK®](https://attack.mitre.org/)\n- [Threat Intelligence Platform](https://en.wikipedia.org/wiki/Threat_Intelligence_Platform)\n- [The Struggle to Operationalize Threat Intelligence | Recorded Future](https://www.recordedfuture.com/operationalizing-threat-intelligence)\n- [Threats & Indicators: A Security Intelligence Lifecycle](https://isc.sans.edu/diary/Threats+Indicators+A+Security+Intelligence+Lifecycle/18475)\n- [Operationalizing Threat Intelligence | Packt](https://www.packtpub.com/product/operationalizing-threat-intelligence/9781801814683)\n- [Intelligent Cyber Defense using Threat Analysis](https://cybersecurity.att.com/blogs/security-essentials/intelligent-cyber-defense-using-threat-analysis)\n- [What is a Threat Intelligence Platform I Resources I Anomali](https://www.anomali.com/resources/what-is-threat-intelligence)\n- [Basic OPSEC Tips & Tricks for OSINT researchers – We will always be OSINTCurio.us](https://www.osintcurio.us/2019/04/18/basic-opsec-tips-and-tricks-for-osint-researchers/)"
+        ]
+      }
+    ]
+  }
+]

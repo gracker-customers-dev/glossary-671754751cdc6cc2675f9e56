@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>sun.com/</loc>
+    <lastmod>2024-10-22</lastmod>
+  </url>
+  <url>
+    <loc>sun.com/indicators-of-compromise-iocs/</loc>
+    <lastmod>2024-10-22</lastmod>
+  </url>
+  <url>
+    <loc>sun.com/mitre-attandck/</loc>
+    <lastmod>2024-10-22</lastmod>
+  </url>
+  <url>
+    <loc>sun.com/operational-threat-intelligence/</loc>
+    <lastmod>2024-10-22</lastmod>
+  </url>
+  <url>
+    <loc>sun.com/tactical-threat-intelligence/</loc>
+    <lastmod>2024-10-22</lastmod>
+  </url>
+</urlset>
